@@ -88,7 +88,7 @@ identical.
 | `methodology-overview.md` | Complete methodology: OHS and GRC compared | *This document* |
 | [`hazard-identification-to-threat-modeling.md`](hazard-identification-to-threat-modeling.md) | OHS hazard ID → GRC threat identification | ✅ Complete |
 | [`risk-scoring-crosswalk.md`](risk-scoring-crosswalk.md) | OHS likelihood/severity → NIST 800-30 likelihood/impact | ✅ Complete |
-| `corrective-action-to-remediation.md` | OHS corrective action → GRC remediation roadmaps | *Coming soon* |
+| [`corrective-action-to-remediation.md`](corrective-action-to-remediation.md) | OHS corrective action → GRC remediation roadmaps | ✅ Complete |
 | `human-factors-in-risk.md` | Where OHS and GRC most powerfully converge | *Coming soon* |
 | `applications.md` | How this methodology applies across the portfolio | *Coming soon* |
 
