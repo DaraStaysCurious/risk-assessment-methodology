@@ -4,6 +4,7 @@
 > updated once all individual documents are complete.
 
 ---
+
 # Methodology Overview
 ## OHS Risk Assessment Practice as a Foundation for GRC
 
@@ -65,6 +66,19 @@ foundation rather than a framework-compliance foundation.
 
 ---
 
+### How this repository is organized
+
+| Document | What it covers |
+|----------|---------------|
+| `methodology-overview.md` | The complete methodology: OHS and GRC compared — *this document* |
+| [`hazard-identification-to-threat-modeling.md`](hazard-identification-to-threat-modeling.md) | OHS hazard ID → GRC threat identification |
+| `risk-scoring-crosswalk.md` | OHS likelihood/severity → NIST 800-30 likelihood/impact — *coming soon* |
+| `corrective-action-to-remediation.md` | OHS corrective action → GRC remediation roadmaps — *coming soon* |
+| `human-factors-in-risk.md` | Where OHS and GRC most powerfully converge — *coming soon* |
+| `applications.md` | How this methodology is applied across the portfolio — *coming soon* |
+
+---
+
 ### A note on framework vs. methodology
 
 NIST 800-30 is a framework. ISO 27005 is a framework. Frameworks tell
@@ -86,6 +100,8 @@ produces controls that actually work in practice.
 
 This document is a methodology. It's designed to be used alongside
 frameworks, not instead of them.
+
+---
 
 ## The Two Disciplines
 
@@ -188,6 +204,8 @@ the end of this document you should be able to move fluidly between
 both vocabularies — which is itself a professional asset in a field
 that increasingly needs practitioners who can bridge human factors
 and technical security.
+
+---
 
 ## The Complete Mapping
 ### OHS Risk Assessment Practice → NIST 800-30
@@ -304,7 +322,7 @@ a threat event occurring.
 
 **GRC vocabulary:**
 - Vulnerability — an unpatched system, a weak password policy, an
-  untrained employee, an misconfigured access control
+  untrained employee, a misconfigured access control
 - Predisposing condition — deadline pressure that causes security
   steps to be skipped, understaffing that leaves tickets unresolved,
   a culture that treats security as an obstacle rather than a practice
@@ -529,6 +547,8 @@ the conditions they actually work in.
 In GRC terms: a control isn't implemented until it's been observed
 working. Documentation is not evidence of effectiveness. Behavior is.
 
+---
+
 ## Where They Diverge
 
 The mapping between OHS and GRC risk assessment is strong — but it
@@ -655,6 +675,8 @@ The OHS practitioner moving into GRC doesn't need to start over.
 They need to expand — adding threat intelligence, multi-framework
 fluency, and a continuous assessment mindset to a methodological
 foundation that is already solid.
+
+---
 
 ## The Missing Layer
 ### What GRC Can Learn from OHS Practice
@@ -913,6 +935,8 @@ to address them will actually work.
 Both are necessary. Currently, GRC practice does one well and the
 other inconsistently.
 
+---
+
 ## Implications for GRC Practice
 ### What This Methodology Looks Like in Action
 
@@ -1147,4 +1171,3 @@ mitigated on paper.
 
 The goal of risk assessment is not compliant documentation. It is
 actual risk reduction. This methodology is built around that goal.
-
