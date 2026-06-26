@@ -90,7 +90,7 @@ identical.
 | [`risk-scoring-crosswalk.md`](risk-scoring-crosswalk.md) | OHS likelihood/severity → NIST 800-30 likelihood/impact | ✅ Complete |
 | [`corrective-action-to-remediation.md`](corrective-action-to-remediation.md) | OHS corrective action → GRC remediation roadmaps | ✅ Complete |
 || [`human-factors-in-risk.md`](human-factors-in-risk.md) | Where OHS and GRC most powerfully converge | ✅ Complete |
-| `applications.md` | How this methodology applies across the portfolio | *Coming soon* |
+| [`applications.md`](applications.md) | How this methodology applies across the portfolio | ✅ Complete |
 
 ---
 
