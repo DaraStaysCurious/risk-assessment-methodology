@@ -33,7 +33,7 @@ in practice — not just described.
 | [`grc-payguard-pcidss`](https://github.com/DaraStaysCurious/grc-payguard-pcidss) | Human behavior as payment security risk — friction-kill analysis applied to PCI DSS controls |
 | [`grc-carestream-soc2`](https://github.com/DaraStaysCurious/grc-carestream-soc2) | Clinician workflow pressure as predisposing condition — SOC 2 controls designed around care priorities |
 | [`grc-trustpath-usable-security`](https://github.com/DaraStaysCurious/grc-trustpath-usable-security) | Full human factors methodology applied — co-design, friction analysis, behavioral threat modeling |
-| [`grc-meridian-capstone`](https://github.com/DaraStaysCurious/grc-meridian-capstone) | All methodology threads unified across five frameworks |
+| [`grc-converge-capstone`](https://github.com/DaraStaysCurious/grc-converge-capstone) | All methodology threads unified across five frameworks |
 | [`secure-design-framework`](https://github.com/DaraStaysCurious/secure-design-framework) | Design Thinking + Secure Design — the methodology extended into a forward-looking framework |
 
 ---
