@@ -1,6 +1,6 @@
 # Risk Scoring Crosswalk
 > OHS and GRC risk scoring are the same underlying logic with
-> different variables — and OHS got one of those variables right
+> different variables - and OHS got one of those variables right
 > that GRC is still missing.
 
 ---
@@ -24,11 +24,11 @@ Risk scoring transforms qualitative observations into defensible,
 prioritized decisions. Without a scoring model, findings are
 opinions. With one, they are evidence.
 
-This document maps the Fine-Kinney risk scoring method — used across
+This document maps the Fine-Kinney risk scoring method - used across
 a decade of OHS practice on factory floors, oil rigs, and marine
-environments — onto NIST 800-30 risk scoring. The two models share
+environments - onto NIST 800-30 risk scoring. The two models share
 the same underlying logic. Fine-Kinney is more precise because it
-separates Exposure from Likelihood — capturing how frequently assets
+separates Exposure from Likelihood - capturing how frequently assets
 or people contact a threat source as an independent risk multiplier.
 
 **The argument:** GRC risk scoring should adopt a three-variable
@@ -41,7 +41,7 @@ ways a two-variable model consistently misses.
 
 **Risk = Likelihood × Exposure × Consequence**
 
-### Likelihood (0.5 – 10)
+### Likelihood (0.5 - 10)
 
 | Score | Description |
 |-------|-------------|
@@ -51,27 +51,27 @@ ways a two-variable model consistently misses.
 | 6 | Quite possible |
 | 10 | To be expected |
 
-### Exposure (0.5 – 10)
+### Exposure (0.5 - 10)
 
 | Score | Description |
 |-------|-------------|
-| 0.5 | Very rarely — once a year or less |
-| 1 | Rarely — monthly |
-| 2 | Occasionally — weekly |
+| 0.5 | Very rarely - once a year or less |
+| 1 | Rarely - monthly |
+| 2 | Occasionally - weekly |
 | 3 | Several times a week |
-| 6 | Frequently — daily |
-| 10 | Continuously — many times per day |
+| 6 | Frequently - daily |
+| 10 | Continuously - many times per day |
 
-### Consequence (1 – 100)
+### Consequence (1 - 100)
 
 | Score | Description |
 |-------|-------------|
-| 1 | Minor injury — first aid only |
-| 3 | Significant injury — medical treatment |
-| 7 | Serious injury — hospitalization |
+| 1 | Minor injury - first aid only |
+| 3 | Significant injury - medical treatment |
+| 7 | Serious injury - hospitalization |
 | 15 | One fatality |
 | 40 | Multiple fatalities |
-| 100 | Catastrophic — mass casualties |
+| 100 | Catastrophic - mass casualties |
 
 ### Risk Score Interpretation
 
@@ -81,7 +81,7 @@ ways a two-variable model consistently misses.
 | 20–70 | Low | Attention needed |
 | 70–200 | Substantial | Corrective action required |
 | 200–400 | High | Immediate improvement needed |
-| > 400 | Very High | Stop activity — remediate immediately |
+| > 400 | Very High | Stop activity - remediate immediately |
 
 ---
 
@@ -104,8 +104,8 @@ ways a two-variable model consistently misses.
 | Level | Description |
 |-------|-------------|
 | Very Low | Negligible effect on operations |
-| Low | Minor degradation — mission still performable |
-| Moderate | Significant degradation — reduced effectiveness |
+| Low | Minor degradation - mission still performable |
+| Moderate | Significant degradation - reduced effectiveness |
 | High | Significant damage to assets or mission |
 | Very High | Severe or catastrophic damage |
 
@@ -125,18 +125,18 @@ ways a two-variable model consistently misses.
 
 | Fine-Kinney | NIST 800-30 | Notes |
 |-------------|-------------|-------|
-| Likelihood (0.5–10) | Likelihood (Very Low–Very High) | Direct equivalent |
-| Consequence (1–100) | Impact (Very Low–Very High) | Direct equivalent |
-| Exposure (0.5–10) | **Not explicitly modeled** | **The gap** |
+| Likelihood (0.5-10) | Likelihood (Very Low-Very High) | Direct equivalent |
+| Consequence (1-100) | Impact (Very Low-Very High) | Direct equivalent |
+| Exposure (0.5-10) | **Not explicitly modeled** | **The gap** |
 | Quantitative score | Qualitative matrix | Different output, same logic |
-| Stop activity > 400 | Very High — immediate action | Equivalent escalation threshold |
+| Stop activity > 400 | Very High - immediate action | Equivalent escalation threshold |
 
 **Where they align:** both assess probability and severity, produce
 a risk level that drives prioritization, and escalate the highest
 scores to immediate action.
 
 **Where they diverge:** Fine-Kinney separates Exposure from
-Likelihood. NIST collapses them together — losing precision for
+Likelihood. NIST collapses them together - losing precision for
 risks involving frequent asset-threat contact.
 
 ---
@@ -158,7 +158,7 @@ risks involving frequent contact between assets and threat sources.**
 | **Fine-Kinney score** | **Substantial** | **Very High** |
 
 NIST scores these identically. Fine-Kinney scores System B
-dramatically higher — because 500 daily users create exponentially
+dramatically higher - because 500 daily users create exponentially
 more exploit opportunities than 2 monthly users.
 
 ### Where Exposure Matters Most in GRC
@@ -175,11 +175,11 @@ more exploit opportunities than 2 monthly users.
 
 | Score | Description |
 |-------|-------------|
-| 1 | Very low — accessed rarely, limited users |
-| 2 | Low — accessed occasionally, small user group |
-| 3 | Moderate — accessed regularly, defined user group |
-| 6 | High — accessed frequently, large user group |
-| 10 | Very high — internet-facing or accessed continuously |
+| 1 | Very low - accessed rarely, limited users |
+| 2 | Low - accessed occasionally, small user group |
+| 3 | Moderate - accessed regularly, defined user group |
+| 6 | High - accessed frequently, large user group |
+| 10 | Very high - internet-facing or accessed continuously |
 
 **Proposed GRC formula:**
 > **Risk = Likelihood × Exposure × Impact**
@@ -200,7 +200,7 @@ When assessors disagree on a risk score:
 | 2 | If scores diverge, bring in a third assessor |
 | 3 | Walk through the scenario together |
 | 4 | Seek consensus through structured discussion |
-| 5 | If no consensus — senior assessor decides, defaulting to the more conservative score |
+| 5 | If no consensus - senior assessor decides, defaulting to the more conservative score |
 
 ### The Conservative Scoring Principle
 
@@ -229,38 +229,38 @@ A score with documented rationale is evidence.**
 
 ## Implications for GRC Practice
 
-1. **Add Exposure as an explicit scoring variable** — frequency
+1. **Add Exposure as an explicit scoring variable** - frequency
    of asset-threat contact is an independent risk multiplier.
-2. **Calibrate Exposure to your asset inventory** — internet-facing
+2. **Calibrate Exposure to your asset inventory** - internet-facing
    systems and widely distributed credentials carry high exposure
    scores regardless of likelihood or impact.
-3. **Require peer review for high and very high scores** — build
+3. **Require peer review for high and very high scores** - build
    a consensus process into your scoring methodology.
-4. **Default to the conservative score when assessors disagree** —
+4. **Default to the conservative score when assessors disagree** -
    the precautionary principle applies in GRC as much as in OHS.
-5. **Document the rationale for every score** — who scored it,
+5. **Document the rationale for every score** - who scored it,
    what method, what variables, whether consensus was reached.
 
 ---
 
 ## Key Takeaways
 
-- Fine-Kinney and NIST 800-30 are the same underlying logic —
-  probability × severity — with different levels of precision
+- Fine-Kinney and NIST 800-30 are the same underlying logic -
+  probability × severity - with different levels of precision
 - Fine-Kinney's three-variable model is more precise because it
   separates Exposure from Likelihood
-- Exposure — frequency of asset-threat contact — is an independent
+- Exposure - frequency of asset-threat contact - is an independent
   risk multiplier a two-variable model misses
 - GRC risk scoring should adopt: Likelihood × Exposure × Impact
 - Risk scores are only as defensible as the process that produced
-  them — consensus, conservative bias, documented rationale
+  them - consensus, conservative bias, documented rationale
 - When assessors disagree, default to the more conservative score
 
 ---
 
 ## Contact
 
-**Dara Thomas** — GRC Analyst & Consultant | Human-Centered Risk & Compliance
+**Dara Thomas** - GRC Analyst & Consultant | Human-Centered Risk & Compliance
 
 [LinkedIn](YOUR_LINKEDIN_URL) · dara.thomas.grc@gmail.com · [GitHub Portfolio](https://github.com/DaraStaysCurious)
 
